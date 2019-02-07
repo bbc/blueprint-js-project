@@ -1,0 +1,17 @@
+{
+  "name": "blueprint-js-project",
+  "version": "1.0.0",
+  "description": "This project acts as a prototype for any new JS project. It's coming with basic tooling and configurations and helps consistency and familiarity between different projects",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "jest",
+    "pre-commit",
+    "eslint",
+    "prettier"
+  ],
+  "author": "teomrd",
+  "license": "ISC"
+}
