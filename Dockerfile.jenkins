@@ -1,0 +1,9 @@
+FROM node:8.15
+
+RUN groupadd -g 250 jenkins
+RUN useradd -u 250 -g 250 -ms /bin/bash -d /var/lib/jenkins jenkins
+
+RUN apt-get update
+RUN apt-get install -yq zip jq
+
+USER jenkins
