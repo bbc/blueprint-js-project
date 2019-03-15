@@ -27,3 +27,4 @@ Things that surely have to change as they are acting just as placeholders.
 
 - The project name (package.json:2). It has to be something like `archiveservices-the-service-name-here-lambda|importer|infrastructure|service`
 - The description. (package.json:4).
+- The README
